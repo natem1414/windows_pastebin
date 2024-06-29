@@ -1,0 +1,13 @@
+https://learn.microsoft.com/en-us/answers/questions/1486646/how-to-set-windows-10-autologin
+
+Regedit
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+
+AutoAdminLogon
+1
+
+DefaultUserName
+username
+
+DefaultPassword
+password
