@@ -3,11 +3,11 @@ https://learn.microsoft.com/en-us/answers/questions/1486646/how-to-set-windows-1
 Regedit
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
 
-AutoAdminLogon
-1
+New string: AutoAdminLogon
+Value: 1
 
-DefaultUserName
-username
+New string: DefaultUserName
+Value: username
 
-DefaultPassword
-password
+New string: DefaultPassword
+Value: password
