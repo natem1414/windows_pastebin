@@ -1,13 +1,17 @@
 https://learn.microsoft.com/en-us/answers/questions/1486646/how-to-set-windows-10-autologin
 
-Regedit
+Auto login:
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
-
 New string: AutoAdminLogon
 Value: 1
-
 New string: DefaultUserName
 Value: username
-
 New string: DefaultPassword
 Value: password
+
+
+Force close on restart/shutdown/logout:
+HKEY_USERS\.DEFAULT\Control Panel\Desktop
+AutoEndTasks String value
+0 = Off
+1 = On
