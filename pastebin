@@ -15,3 +15,10 @@ HKEY_USERS\.DEFAULT\Control Panel\Desktop
 AutoEndTasks String value
 0 = Off
 1 = On
+
+#Delete mapped drive
+net use Z: /delete
+
+#Delete all mapped drive
+#open cmd as admin
+net use * /delete
