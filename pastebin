@@ -22,3 +22,8 @@ net use Z: /delete
 #Delete all mapped drive
 #open cmd as admin
 net use * /delete
+
+Diable auto update
+Open GPedit
+gpedit.msc
+Computer Configuration > Administrative Templates > Windows Components > Windows Update > Manage end user experience, and set the Configure Automatic Updates
