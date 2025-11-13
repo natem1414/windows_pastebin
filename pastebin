@@ -1,8 +1,8 @@
-Win11 Setup with local account/without internet
-Disconnect from internet
-press Shift + F10 on the "Let's connect you to a network" screen to open Command Prompt.
-Type OOBE\BYPASSNRO and press Enter
-computer will reboot. "I dont have internet" will now be an option
+#Win11 Setup with local account/without internet
+#Disconnect from internet
+#press Shift + F10 on the "Let's connect you to a network" screen to open Command Prompt.
+OOBE\BYPASSNRO and press Enter
+#computer will reboot. "I dont have internet" will now be an option
 
 https://learn.microsoft.com/en-us/answers/questions/1486646/how-to-set-windows-10-autologin
 
