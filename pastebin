@@ -6,7 +6,8 @@ computer will reboot. "I dont have internet" will now be an option
 
 https://learn.microsoft.com/en-us/answers/questions/1486646/how-to-set-windows-10-autologin
 
-Auto login:
+#Auto login:
+#Open Regedit
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
 New string: AutoAdminLogon
 Value: 1
@@ -16,20 +17,22 @@ New string: DefaultPassword
 Value: password
 
 
-Force close on restart/shutdown/logout:
+#Force close on restart/shutdown/logout:
+#Open Regedit
 HKEY_USERS\.DEFAULT\Control Panel\Desktop
 AutoEndTasks String value
-0 = Off
-1 = On
+#0 = Off
+#1 = On
 
 #Delete mapped drive
+#open cmd as admin
 net use Z: /delete
 
 #Delete all mapped drive
 #open cmd as admin
 net use * /delete
 
-Diable auto update
-Open GPedit
+#Diable auto update
+#Open GPedit
 gpedit.msc
 Computer Configuration > Administrative Templates > Windows Components > Windows Update > Manage end user experience, and set the Configure Automatic Updates
