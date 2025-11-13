@@ -37,7 +37,7 @@ net use * /delete
 gpedit.msc
 Computer Configuration > Administrative Templates > Windows Components > Windows Update > Manage end user experience, and set the Configure Automatic Updates
 
-Enable CIFS/SMB 1.0 (not secure, use only on closed networks)
+Enable CIFS/SMB 1.0 (not secure, use only on non-public networks)
 Windows key, search for "Turn windows features on or off"
 check "SMB1.0/CIFS File shareing support"
 
